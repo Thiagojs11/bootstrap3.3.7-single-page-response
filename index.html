@@ -2,14 +2,27 @@
 <html>
 <head>
 	<meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body> 
+	<script src="./assets/js/jquery-3.6.0.min.js"></script>
+	<script src="./assets/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
-<h2>Sobre Nós</h2>
-<img class="img-responsive" src="./assets/img/empresa.jpg" alt="">
+	<div class="container">
+		<h2>Sobre Nós</h2>
+		<img class="img-responsive" src="./assets/img/empresa.jpg" alt="">
 
+		<h2 data-toggle="collapse" data-target="#primeiro-paragrafo">Desde 1935</h2>
+    	<p id="primeiro-paragrafo" class="collapse">A TopCasa Fina Arquitetura está no mercado desde... </p>
+
+		<h2 data-toggle="collapse" data-target="#segundo-paragrafo">Desde 1935</h2>
+    	<p id="segundo-paragrafo" class="collapse">A TopCasa Fina Arquitetura está no mercado desde... </p>
+
+		<h2 data-toggle="collapse" data-target="#terceiro-paragrafo">Desde 1935</h2>
+    	<p id="terceiro-paragrafo" class="collapse">A TopCasa Fina Arquitetura está no mercado desde... </p>
+	</div>
+	
 </body>
 </html>
